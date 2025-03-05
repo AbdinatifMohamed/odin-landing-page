@@ -122,6 +122,7 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    margin: 0 auto;
 }
 
 .cta > div > div {
