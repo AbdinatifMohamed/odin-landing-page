@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 1rem 7rem;
+}
+
+.hero__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.hero__header ul {
+    display: flex;
+}
+
+.hero__content {
+    display: flex;
+    padding: 0 2rem;
+    height: 15rem;
+}
+
+.hero__content > div {
+    flex: 1;
+}
+
+.hero__right {
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero__left > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero__left > p {
+    font-size: 1.125rem;
+    margin: 1rem 0 2rem;
+}
+
+
+.information {
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4rem;
+}
+
+.information__items {
+    display: flex;
+    gap: 2rem;
+}
+
+.information__item {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.information__item > p {
+    width: 7rem;
+    text-align: center;
+}
+
+.information__item > div {
+    height: 7rem;
+    width: 7rem;
+    border: 2px solid #3882F6;
+    border-radius: .5rem;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 75px 55px;
+}
+
+.quote > blockquote {
+    font-size: 36px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.quote > p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 18px;
+}
+
+.cta {
+    padding: 75px 55px;
+}
+
+
+.cta > div {
+    display: flex;
+    background-color: #3882F6;
+    width: 85%;
+    padding: 2.5rem;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.cta > div > div {
+    color: #F9FAF8;
+}
+
+footer { 
+    padding: 2rem;
+    background-color: #1F2937;
+    
+}
+footer > p {
+    width: 100%;
+    color: #F9FAF8;
+    text-align: center;
+}
+.btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: .5rem;
+
+}
+
+.btn--alt {
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+}
